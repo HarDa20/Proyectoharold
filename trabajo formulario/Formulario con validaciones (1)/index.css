@@ -1,0 +1,111 @@
+/* General settings */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+/* Container and form styling */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.4); /* Fondo blanco con un poco de transparencia */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 50px auto; /* Centrar el formulario */
+    width: 90%; /* Ancho del formulario */
+    max-width: 600px; /* Máximo ancho del formulario */
+}
+
+/* Title styling */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Input and label styling */
+label {
+    display: block;
+    font-weight: bold; /* Negrita para etiquetas */
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px; /* Espacio entre los campos */
+}
+
+/* Button styling */
+input[type="submit"], input[type="reset"], .button-group button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px; /* Espacio entre botones */
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+}
+
+input:disabled, select:disabled {
+    background-color: #f0f0f0;
+}
+
+/* Range input styling */
+.form-range {
+    width: 100%; /* Asegura que el rango use todo el ancho disponible */
+}
+
+/* Checkbox and radio styling */
+.form-check-label {
+    margin-left: 10px; /* Espacio entre checkbox/radio y su etiqueta */
+}
+
+/* Error styling */
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.input-error {
+    border: 2px solid red; /* Bordes rojos para errores */
+}
+
+.input-success {
+    border: 2px solid green; /* Bordes verdes para campos válidos */
+}
+
+/* Botones de color verde */
+#clearBtn, #enableBtn {
+    background-color: #28a745; /* Verde */
+}
+
+#clearBtn:hover, #enableBtn:hover {
+    background-color: #218838; /* Verde oscuro al pasar el mouse */
+}
+
+/* Botones de color rojo */
+#disableBtn, #disableEditBtn {
+    background-color: #dc3545; /* Rojo */
+}
+
+#disableBtn:hover, #disableEditBtn:hover {
+    background-color: #c82333; /* Rojo oscuro al pasar el mouse */
+}
+
+/* Opcional: Centrar el grupo de botones */
+.button-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[disabled], select[disabled], textarea[disabled] {
+    background-color: #575862; /* Color gris claro */
+    color: #ff0000; /* Color gris oscuro para el texto */
+    cursor: not-allowed; /* Cambia el cursor cuando está deshabilitado */
+}
